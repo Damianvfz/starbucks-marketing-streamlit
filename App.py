@@ -930,7 +930,7 @@ elif seccion == "5. Mercado meta y recomendación":
     """)
 
     st.success(
-        "Lectura ejecutiva: el mercado meta principal corresponde a clientes frecuentes, rentables, recientes "
+        "El mercado meta principal corresponde a clientes frecuentes, rentables, recientes "
         "y con mayor afinidad digital. Por eso, la estrategia debe priorizar ubicaciones donde se concentre este grupo "
         "y reforzar canales como Mobile App, Rewards y pedidos anticipados."
     )
