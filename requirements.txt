@@ -3,4 +3,3 @@ pandas
 numpy
 plotly
 scikit-learn
-stepmix==2.2.3
