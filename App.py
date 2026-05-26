@@ -1196,9 +1196,7 @@ top_oportunidad = ranking_expansion.iloc[0]
 mayor_clientes = ranking_expansion.sort_values("Clientes objetivo", ascending=False).iloc[0]
 
 st.info(
-    f"Según el puntaje ponderado, la principal oportunidad es "
-    f"{top_oportunidad['Región']} + {top_oportunidad['Tipo de tienda']}. "
-    f"Por cantidad de clientes objetivo, destaca {mayor_clientes['Región']} + {mayor_clientes['Tipo de tienda']}."
+    "Tanto por la cantidad de clientes objetivo como por el puntaje ponderado, la principal oportunidad es Midwest + Suburban"
 )
 
 st.subheader("Resumen estratégico")
